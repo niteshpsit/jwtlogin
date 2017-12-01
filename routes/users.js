@@ -30,8 +30,8 @@ router.use(function(req, res, next){
 /* GET users listing. */
 router.get('/', function(req, res, next) {
   res.json({users:[
-    {firstName:"NITESH",lastName:"KUMAR"},
-    {firstName:"NEW",lastName:"NEW"},
+    {firstName:"FIRST USER",lastName:"LAST NAME"},
+    {firstName:"SECOND USER",lastName:"LAST NAME"},
   ]})
 });
 
